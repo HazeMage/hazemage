@@ -1,5 +1,5 @@
 body{
-  background-color: #7f7f7e;
+  background-color: #71506f;
   margin: 0 auto;
 }
 
@@ -52,6 +52,10 @@ p {
   color: #fff;
   font-family: 'Helvetica', sans-serif;
   margin: 20px 150px;
+}
+
+a {
+  color: #fff;
 }
 
 .contentimage{
