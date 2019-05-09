@@ -1,5 +1,5 @@
 body{
-  background-color: #000;
+  background-color: #7f7f7e;
   margin: 0 auto;
 }
 
@@ -8,7 +8,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #c34134;
+  background-color: #71506f;
   text-align: center;
   height: 35px;
 }
@@ -17,10 +17,10 @@ li {
   color: #FFF;
   font-family: 'Oswald', sans-serif;
   font-size: 16px;
-  font-weight: 300;
+  font-weight: bold;
   text-transform: uppercase;
   display: inline-block;
-  margin: 9px 30px;
+  margin: 9px 30px 0px 30px;
   position: sticky;
 }
 
@@ -36,44 +36,55 @@ li a {
 }
 
 li a:hover {
-  color: #c34134;
+  color: #71506f;
   background-color: #FFF;
 }
 
 h1{
-  color: #c34134;
+  color: #81aca9;
   font-family: 'Helvetica', sans-serif;
-  margin: 25px 300px;
+  margin: 0px 150px;
+  padding: 40px 0px 0px 0px;
 
 }
 
 p {
   color: #fff;
   font-family: 'Helvetica', sans-serif;
-  margin: 20px 300px;
+  margin: 20px 150px;
 }
 
 .contentimage{
-  margin: 20px 300px;
+  margin: 20px 150px;
 }
 
 .topbanner{
-  height: 190px;
-  background-image: url('');
+  height: 200px;
+  background-image: url('images/bandphotobanner.jpg');
   background-repeat: no-repeat;
   background-position: center;
+  margin: 0px 0px;
 }
 
 .navigation{
-
+  margin: 0px 0px;
 }
 
 .content{
+  width: 75%;
+  margin: 0px auto;
+  background-color: #000;
+}
 
+.contentwrapper
+{
+  background-color: #111518;
+  margin: 0px 0px;
 }
 
 .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 10px;
 }
